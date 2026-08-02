@@ -1,6 +1,6 @@
 # VR/AR Gözlüklerinin Evrimi ve Kullanıcı Deneyimi
 
-Sanal ve artırılmış gerçeklik gözlüklerinin 1968''den 2024''e uzanan gelişimini
+Sanal ve artırılmış gerçeklik gözlüklerinin 1968'den 2024'e uzanan gelişimini
 ve bu cihazların çözemediği kullanıcı deneyimi problemlerini anlatan tek sayfalık
 interaktif bir sunum sitesi.
 
@@ -10,7 +10,7 @@ interaktif bir sunum sitesi.
 
 ## İçerik
 
-**Tarihsel çizgi** — Sutherland''ın 1968 tarihli ilk başüstü ekranından başlayıp
+**Tarihsel çizgi** — Sutherland'ın 1968 tarihli ilk başüstü ekranından başlayıp
 1995, 2012, 2016, 2018, 2019, 2020, 2022, 2023 ve 2024 kilometre taşlarıyla
 bugüne gelen bir zaman akışı; her dönem kendi görseliyle.
 
@@ -23,7 +23,7 @@ maliyet.
 
 Tek bir `index.html` (88 KB) ve elle yazılmış `styles.css` (16 KB). Çerçeve
 kullanılmadı; düzen, geçişler ve duyarlı davranışın tamamı saf CSS ile kuruldu.
-30''dan fazla görsel `webp`, `avif`, `png` ve `jpg` biçimlerinde, sayfa ağırlığını
+30'dan fazla görsel `webp`, `avif`, `png` ve `jpg` biçimlerinde, sayfa ağırlığını
 düşük tutacak şekilde seçildi.
 
 ```
@@ -35,7 +35,7 @@ düşük tutacak şekilde seçildi.
 
 ## Çalıştırma
 
-Kurulum gerekmiyor. `index.html`''i tarayıcıda aç, ya da yukarıdaki canlı
+Kurulum gerekmiyor. `index.html`'i tarayıcıda aç, ya da yukarıdaki canlı
 adrese git.
 
 ## Rolüm
