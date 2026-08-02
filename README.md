@@ -1,48 +1,47 @@
-# VR/AR Gözlüklerinin Evrimi ve Kullanıcı Deneyimi
+# The Evolution of VR/AR Headsets and Their User Experience
 
-Sanal ve artırılmış gerçeklik gözlüklerinin 1968'den 2024'e uzanan gelişimini
-ve bu cihazların çözemediği kullanıcı deneyimi problemlerini anlatan tek sayfalık
-interaktif bir sunum sitesi.
+A single-page interactive presentation tracing how virtual and augmented reality
+headsets developed between 1968 and 2024, and the user-experience problems these
+devices still have not solved.
 
-**Canlı:** https://yuceldayan.github.io/vr-ar-ux-presentation/
+**Live:** https://yuceldayan.github.io/vr-ar-ux-presentation/
 
 ---
 
-## İçerik
+## Contents
 
-**Tarihsel çizgi** — Sutherland'ın 1968 tarihli ilk başüstü ekranından başlayıp
-1995, 2012, 2016, 2018, 2019, 2020, 2022, 2023 ve 2024 kilometre taşlarıyla
-bugüne gelen bir zaman akışı; her dönem kendi görseliyle.
+**Timeline** — Starts with Sutherland's 1968 head-mounted display and moves
+through 1995, 2012, 2016, 2018, 2019, 2020, 2022, 2023 and 2024, each era with
+its own imagery.
 
-**UX problemleri** — Cihazların hâlâ aşamadığı başlıklar ayrı ayrı ele alınıyor:
-ergonomi ve ağırlık, denge bozukluğu, fiziksel rahatsızlık, karmaşık arayüz,
-lens ve görüş sorunları, ses, dil desteği, bağlantı kopmaları, gizlilik ve
-maliyet.
+**UX problems** — The issues headsets have yet to overcome, taken one at a time:
+ergonomics and weight, balance disturbance, physical discomfort, cluttered
+interfaces, lens and vision limitations, audio, language support, connection
+drops, privacy and cost.
 
-## Nasıl yapıldı
+## How it was built
 
-Tek bir `index.html` (88 KB) ve elle yazılmış `styles.css` (16 KB). Çerçeve
-kullanılmadı; düzen, geçişler ve duyarlı davranışın tamamı saf CSS ile kuruldu.
-30'dan fazla görsel `webp`, `avif`, `png` ve `jpg` biçimlerinde, sayfa ağırlığını
-düşük tutacak şekilde seçildi.
+One `index.html` (88 KB) and a hand-written `styles.css` (16 KB). No framework:
+the layout, transitions and responsive behaviour are all plain CSS. More than
+thirty images are served as `webp`, `avif`, `png` and `jpg`, chosen per image to
+keep the page light.
 
 ```
 .
-├── index.html      sunumun tamamı
-├── styles.css      düzen, tipografi, geçişler
-└── images/         30+ görsel (webp / avif / png / jpg)
+├── index.html      the whole presentation
+├── styles.css      layout, typography, transitions
+└── images/         30+ assets (webp / avif / png / jpg)
 ```
 
-## Çalıştırma
+## Running
 
-Kurulum gerekmiyor. `index.html`'i tarayıcıda aç, ya da yukarıdaki canlı
-adrese git.
+No build step. Open `index.html` in a browser, or visit the live link above.
 
-## Rolüm
+## My role
 
-**Tek geliştirici.** Konu araştırması, içerik yazımı, görsel seçimi ve sitenin
-tasarımı ile kodlaması bana ait.
+**Sole developer.** The research, the writing, the image selection, and the
+design and coding of the site are all mine.
 
-## Lisans
+## License
 
 MIT
